@@ -3,6 +3,7 @@ import Counter from './components/Counter/Counter';
 import Section from './components/Section/Section';
 import Dropdown from './components/Dropdown/Dropdown';
 import ColorPicker from './components/ColorPicker/ColorPicker';
+import Input from './components/Input/Input'
 import ColorPickerOptions from './data/colorPickerOptions.json';
 
 
@@ -16,7 +17,7 @@ const App =() => {
   
         <Section title='Example 3'><ColorPicker options={ColorPickerOptions}/> </Section>
   
-        <Section title='Example 4'> </Section>
+        <Section title='Example 4'><Input/> </Section>
         
       </div>
     );
