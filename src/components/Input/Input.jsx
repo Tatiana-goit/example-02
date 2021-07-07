@@ -6,13 +6,19 @@ class Input extends Component {
         tag: '',
     };
 
-    handleNameChange = event => {
-           this.setState({name: event.currentTarget.value})
+    handleChange = e => {
+        const {name,value} = e.cuttentTarget;
+        this.setState({
+            [name]: value})
     }
 
-    handleTagChange = event => {
-        this.setState({tag: event.currentTarget.value})
- }
+    // handleNameChange = event => {
+    //        this.setState({name: event.currentTarget.value})
+    // }
+
+    // handleTagChange = event => {
+    //     this.setState({tag: event.currentTarget.value})
+    // }
 
     render() {
         return (
