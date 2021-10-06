@@ -1,6 +1,7 @@
 import { Component } from 'react';
 
 
+
 class New extends Component {
     state = {
         counter: 0,
@@ -27,22 +28,12 @@ class New extends Component {
     }
 
     render() {
-        const {counter} = this.state
-        const { handleDecrement,handleIncrement } = this
+        // const {counter} = this.state
+        // const { handleDecrement,handleIncrement } = this
         return (
             <div>
                 <h1> My work</h1>
-                <Counter
-                    counter={counter}
-                    handleDecrement={handleDecrement}
-                    handleIncrement={handleIncrement}
-
-                />
-                {/* <div className='counter'>
-                    <button onClick={handleDecrement}>-</button>
-                    <p>{counter}</p>
-                    <button onClick={handleIncrement}>+</button>
-                </div> */}
+               
             </div>
         )
     }

@@ -5,7 +5,7 @@ import Dropdown from './components/Dropdown/Dropdown';
 import ColorPicker from './components/ColorPicker/ColorPicker';
 import Input from './components/Input/Input'
 import Example1 from './components/Example1/Example1'
-import Example2 from './components/Example1/Example2'
+import Example2 from './components/Example2/Example2'
 import ColorPickerOptions from './data/colorPickerOptions.json';
 
 
