@@ -6,6 +6,7 @@ import ColorPicker from './components/ColorPicker/ColorPicker';
 import Input from './components/Input/Input'
 import Example1 from './components/Example1/Example1'
 import Example2 from './components/Example2/Example2'
+import Example3 from './components/Example2/Example2'
 import ColorPickerOptions from './data/colorPickerOptions.json';
 
 
@@ -24,6 +25,8 @@ const App =() => {
         <Section title='Example 5'><Example1/> </Section>
 
         <Section title='Example 6'><Example2/> </Section>
+
+        <Section title='Example 7'><Example3/> </Section>
         
         
       </div>
