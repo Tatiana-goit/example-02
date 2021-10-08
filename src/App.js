@@ -23,13 +23,13 @@ const App =() => {
   
         <Section title='Example 4'><Input/> </Section>
 
-        <Section title='Example 5'><Example1/> </Section>
+        <Section title='Example 1'><Example1/> </Section>
 
-        <Section title='Example 6'><Example2/> </Section>
+        <Section title='Example 2'><Example2/> </Section>
 
-        <Section title='Example 7'><Example3/> </Section>
+        <Section title='Example 3'><Example3/> </Section>
 
-        <Section title='Example 8'><Form2App/> </Section>
+        <Section title='Example Form'><Form2App/> </Section>
         
         
       </div>
