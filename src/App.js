@@ -7,6 +7,7 @@ import Input from './components/Input/Input'
 import Example1 from './components/Example1/Example1'
 import Example2 from './components/Example2/Example2'
 import Example3 from './components/Example2/Example2'
+import Form2App from './components/Form2/Form2App'
 import ColorPickerOptions from './data/colorPickerOptions.json';
 
 
@@ -27,6 +28,8 @@ const App =() => {
         <Section title='Example 6'><Example2/> </Section>
 
         <Section title='Example 7'><Example3/> </Section>
+
+        <Section title='Example 8'><Form2App/> </Section>
         
         
       </div>
