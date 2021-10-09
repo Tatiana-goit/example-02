@@ -5,8 +5,8 @@ import Dropdown from './components/Dropdown/Dropdown';
 import ColorPicker from './components/ColorPicker/ColorPicker';
 import Input from './components/Input/Input'
 import Example1 from './components/Example1/Example1'
-import Example2 from './components/Example2/Example2'
-import Example3 from './components/Example2/Example2'
+import AppTodoList from './components/TodoList/AppTodoList'
+
 import Form2App from './components/Form2/Form2App'
 import ColorPickerOptions from './data/colorPickerOptions.json';
 
@@ -25,9 +25,9 @@ const App =() => {
 
         <Section title='Example 1'><Example1/> </Section>
 
-        <Section title='Example 2'><Example2/> </Section>
+        <Section title='Todo'><AppTodoList/> </Section>
 
-        <Section title='Example 3'><Example3/> </Section>
+        {/* <Section title='Example 3'><Example3/> </Section> */}
 
         <Section title='Example Form'><Form2App/> </Section>
         
